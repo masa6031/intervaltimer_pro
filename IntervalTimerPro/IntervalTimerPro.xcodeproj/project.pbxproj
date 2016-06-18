@@ -15,6 +15,8 @@
 		44AF0BDB1D152EC5009CAC90 /* IntervalTimerProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF0BDA1D152EC5009CAC90 /* IntervalTimerProUITests.swift */; };
 		44AF0BEF1D15496F009CAC90 /* background_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AF0BED1D15496F009CAC90 /* background_18.png */; };
 		44AF0BF61D154BE3009CAC90 /* setBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AF0BF51D154BE3009CAC90 /* setBtn.png */; };
+		44AF0BF81D155637009CAC90 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF0BF71D155637009CAC90 /* SettingViewController.swift */; };
+		44F0203B1D1583BA00F75558 /* TimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0203A1D1583BA00F75558 /* TimeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		44AF0BDC1D152EC5009CAC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44AF0BED1D15496F009CAC90 /* background_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_18.png; sourceTree = "<group>"; };
 		44AF0BF51D154BE3009CAC90 /* setBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setBtn.png; sourceTree = "<group>"; };
+		44AF0BF71D155637009CAC90 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		44F0203A1D1583BA00F75558 /* TimeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				44AF0BBA1D152EC5009CAC90 /* AppDelegate.swift */,
 				44AF0BBC1D152EC5009CAC90 /* ViewController.swift */,
+				44AF0BF71D155637009CAC90 /* SettingViewController.swift */,
+				44F0203A1D1583BA00F75558 /* TimeData.swift */,
 				44AF0BBE1D152EC5009CAC90 /* Main.storyboard */,
 				44AF0BC11D152EC5009CAC90 /* Assets.xcassets */,
 				44AF0BC61D152EC5009CAC90 /* Info.plist */,
@@ -278,6 +284,8 @@
 			files = (
 				44AF0BBD1D152EC5009CAC90 /* ViewController.swift in Sources */,
 				44AF0BBB1D152EC5009CAC90 /* AppDelegate.swift in Sources */,
+				44F0203B1D1583BA00F75558 /* TimeData.swift in Sources */,
+				44AF0BF81D155637009CAC90 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
